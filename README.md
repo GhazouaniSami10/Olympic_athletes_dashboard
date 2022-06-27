@@ -14,14 +14,12 @@ This document (the README file) is a hub to give you some information about the 
   - [Who are we?](#who-are-we)
   - [What do we need?](#what-do-we-need)
   - [Installation](#installation)
-  - [Get involved](#get-involved)
-  - [Contact us](#contact-us)
-  - [License](#license)
-  - [Thank you](#thank-you)
+
+
 
 ## Demonstration
 
-Our [Olympics Athlete Dashboard](https://olympic-athletes-dash.herokuapp.com/) currently consists of:
+Our [Olympics Athlete Dashboard](https://olympic-athletes-dashboard.herokuapp.com/) currently consists of:
 * 4 plots: 3 histograms for athletes' `Age`, `Weight`, and `Height` distribution that can zoom in or out with two colors to distinguish genders, and a map for number of athlete per country.
 * 6 filters on the left side bar: a slider for `year` range selection, two drop-down menus for `sports` and `countries`, and three radio buttons to select `medal` and `season`, and whether or not we can animate the world map by year. All filters have tooltips to explain how to use them.
 * 1 help button: to briefly explain what this dashboard does and guide users.
@@ -45,7 +43,7 @@ All in all, different groups of people have different needs and usage scenarios 
 
 ### The solution
 
-The [Olympic Athletes Dashboard app](https://olympic-athletes-dash.herokuapp.com/) will:
+The [Olympic Athletes Dashboard app](https://olympic-athletes-dashboard.herokuapp.com/) will:
 
 * For Olympic committees: present the distributions of Olympic athletes' personal attributes, namely, ages, weights, and heights, as an objective referencing tool for the Olympic committees to identify the potential individuals with suitable heights and weights.
 * For national sports authorities: highlight the counts of athletes per country on an interactive world map based on the applied criteria to initiated the visual comparisons between global countries so that decision-makers can identify the advantageous country to hire instructors for different sports.
@@ -54,11 +52,7 @@ The [Olympic Athletes Dashboard app](https://olympic-athletes-dash.herokuapp.com
 
 So, corresponding to the different problems, users have the options to customize diverse filters and obtain insights from the Olympic Athletes data. And the overall goal is to answer the personal attributes (ages, weights and heights) and the gloabl ditributions of the Olympic atheltes based on customized criteria. 
 
-## Who are we?
 
-The founders of the Olympic Athletes Dashboard app - [Xiaohan Chen][link_xiaohan], [Cuthbert Chow][link_cuthbert], [Jessie Wong][link_jessie] and [Luming Yang][link_luming] - are teammates from the Data Science graduate school at the University of British Columbia. 
-
-The development of this app is mentored by the teaching team from the MDS program at the University of British Columbia. Check out the awesome program and teaching team on the [homepage][link_ubc_mds].
 
 ## What do we need?
 
@@ -82,27 +76,5 @@ docker-compose up
 
 You could view the webpage locally by navigating to the address http://localhost:8000/ in your browser.
 
-## Get involved
-
-If you think you can help in any of the areas listed above (and we bet you can) or in any of the many areas that we haven't yet thought of (and here we're *sure* you can) then please check out our [contributors' guidelines](CONTRIBUTING.md) and our [roadmap](../../issues/1).
-
-Please note that it's very important to us that we maintain a positive and supportive environment for everyone who wants to participate. When you join us we ask that you follow our [code of conduct](CODE_OF_CONDUCT.md) in all interactions both on and offline.
-
-## Contact us
-
-If you want to report a problem or suggest an enhancement we'd love for you to [open an issue](../../issues) at this github repository because then we can get right on it.
-
-## License
-
-The product is provided based on [this License](LICENSE).
-
-## Thank you
-
-Thank you so much for visiting the Olympic Athletes Dashboard and we hope that you enjoy the journay of exploring the Olympic Athletes data.
 
 
-[link_xiaohan]: https://github.com/Anthea98
-[link_cuthbert]: https://github.com/cuthchow
-[link_jessie]: https://github.com/jessie14
-[link_luming]: https://github.com/Luming-ubc
-[link_ubc_mds]: https://masterdatascience.ubc.ca/
